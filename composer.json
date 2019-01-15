@@ -2,7 +2,8 @@
     "name": "leonardocor/fake",
     "description": "Fake project",
     "require-dev": {
-        "phpunit/phpunit": "7.*"
+        "phpunit/phpunit": "7.*",
+        "phpdocumentor/phpdocumentor": "2.*"
     },
     "authors": [
         {
@@ -11,9 +12,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "phpdocumentor/phpdocumentor": "2.*"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Fake\\": ["src", "test"]
