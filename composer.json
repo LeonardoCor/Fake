@@ -14,7 +14,12 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Fake\\": ["src", "test"]
+            "Fake\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fake\\": "test"
         }
     }
 }
