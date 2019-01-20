@@ -35,4 +35,8 @@ class FakeFactory {
     public function getFake() {
         return $this->fake;
     }
+    
+    public function newFnc() {
+        
+    }
 }
