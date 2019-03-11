@@ -4,7 +4,7 @@
  */
 namespace Fake;
 
-use Monolog\Logger;
+use phpDocumentor\Command\Helper;
 
 /**
  * Description of Fake
@@ -25,10 +25,11 @@ class Fake {
     /**
      * Test for dependency.
      * 
-     * @return \Monolog\Logger
+     * @return \phpDocumentor\Command\Helper\ConfigurationHelper
      */
     public function testDependency() {
-        $l = new Logger("Fake Log");
-        return $l;
+        $h = new Helper\ConfigurationHelper(new \phpDocumentor\Configuration());
+        return $h;
     }
 }
+

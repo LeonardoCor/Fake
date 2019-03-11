@@ -1,9 +1,6 @@
 {
     "name": "leonardocor/fake",
     "description": "Fake project",
-    "require-dev": {
-        "phpunit/phpunit": "7.*"
-    },
     "authors": [
         {
             "name": "Leonardo Corazzi",
@@ -11,7 +8,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "monolog/monolog": "1.*"
+    },
     "autoload": {
         "psr-4": {
             "Fake\\": "src"
