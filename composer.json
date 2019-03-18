@@ -11,6 +11,9 @@
     "require": {
         "monolog/monolog": "1.*"
     },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "Fake\\": "src"

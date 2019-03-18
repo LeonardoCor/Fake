@@ -36,6 +36,9 @@ class FakeFactory {
         return $this->fake;
     }
     
+    /**
+     * New method to implement.
+     */
     public function newFnc() {
         
     }
