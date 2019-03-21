@@ -26,5 +26,11 @@ class FakeFactoryTest extends \PHPUnit\Framework\TestCase {
     public function testGetFake() {
         $this->assertEquals($this->object->getFake(), "Io sono " . \Fake\Fake::class);
     }
-
+    
+    /**
+     * @covers Fake\Factory\FakeFactory::newFnc
+     */
+    public function testNewFnc() {
+        $this->markTestIncomplete("Code method not yet implemented");
+    }
 }
