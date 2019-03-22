@@ -21,7 +21,7 @@ class FakeFactory {
     private $fake;
     
     /**
-     * Constructor
+     * Constructor.
      */
     public function __construct() {
         $this->fake = new Fake\Fake();
@@ -37,9 +37,9 @@ class FakeFactory {
     }
     
     /**
-     * New method to implement.
+     * @return integer Returns <b>1</b>
      */
     public function newFnc() {
-        
+        return 1;
     }
 }
